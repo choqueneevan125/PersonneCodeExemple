@@ -7,7 +7,7 @@ int main()
     std::vector<Personne> personnes = CreateInfoPerso();
 
     std::string nomRecherche;
-    std::cout << "Entrez le nom du héros à rechercher : ";
+    std::cout << "Entrez le nom de la personne à rechercher : ";
     std::getline(std::cin, nomRecherche);
 
     bool trouve = false;
